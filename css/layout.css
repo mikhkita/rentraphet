@@ -224,13 +224,16 @@ input:-moz-placeholder {
 
 .b-btn-tr{
 	display: inline-block;
-	padding: 19px 46px;
-	border: 2px solid rgba(255,255,255,0.30);
+	padding: 19px 46px 17px 46px;
+	border: 2px solid #E1E5EA;
 	border-radius: 100px;
 	text-align: center;
 	font-family: 'GothamPro-Medium';
 	font-size: 16px;
 	line-height: 16px;
+}
+.b-btn-tr.white{
+	border: 2px solid rgba(255,255,255,0.30);
 }
 
 h1{
@@ -248,7 +251,7 @@ h2:after, h1:after{
 	width: 120px;
 	height: 5px;
 	background-image: linear-gradient(180deg, #F38600 0%, #E45200 100%);
-	margin-top: 32px;
+	margin-top: 24px;
 }
 h2.center:after, h1.center:after{
 	margin-left: auto;
@@ -626,7 +629,7 @@ h3{
 	padding: 70px 0 90px 0;
 }
 	.b-news-list{
-		margin-top: 50px;
+		margin: 50px 0 70px 0;
 	}
 		.b-news-item{
 			display: inline-block;

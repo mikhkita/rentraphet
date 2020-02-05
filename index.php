@@ -128,7 +128,9 @@
 				</div>
 			</a>
 		</div>
-		<a href="#" class="b-btn-tr">Смотреть все новости</a>
+		<div class="center">
+			<a href="#" class="b-btn-tr">Смотреть все новости</a>
+		</div>
 	</div>
 </div>
 
