@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1525px" height="666px" viewBox="0 0 1525 666" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Круги</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Главная-v1" transform="translate(-38.000000, -798.000000)">
+            <g id="Group-29" transform="translate(0.000000, 798.000000)">
+                <g id="Group-32">
+                    <g id="Круги" transform="translate(38.000000, -476.000000)">
+                        <rect id="Rectangle-9" fill="#E8E8E8" opacity="0.18" x="0" y="0" width="1525" height="1525" rx="762.5"></rect>
+                        <rect id="Rectangle-9" fill="#FFFFFF" x="147" y="147" width="1231" height="1231" rx="615.5"></rect>
+                        <rect id="Rectangle-9" fill="#000000" opacity="0.0183082217" x="318" y="318" width="889" height="889" rx="444.5"></rect>
+                        <rect id="Rectangle-9" fill="#FFFFFF" x="489" y="489" width="549" height="549" rx="274.5"></rect>
+                        <rect id="Rectangle-9" fill="#F3F3F3" opacity="0.359148551" x="648" y="648" width="231" height="231" rx="115.5"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
