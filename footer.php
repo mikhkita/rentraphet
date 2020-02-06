@@ -30,6 +30,7 @@
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
 	<!-- <script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false&key=AIzaSyD6Sy5r7sWQAelSn-4mu2JtVptFkEQ03YI"></script> -->
+	<script src="https://api-maps.yandex.ru/2.0-stable/?apikey=dcf82496-06b7-476e-b6f8-0078e5d46b67&load=package.standard&lang=ru-RU&onload=yandexMapInit" type="text/javascript"></script>
 	<script type="text/javascript" src="js/jquery.touch.min.js"></script>
 	<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
 	<script type="text/javascript" src="js/jquery.validate.min.js"></script>

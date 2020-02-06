@@ -100,3 +100,23 @@ $(document).ready(function(){
 	// });
 
 });
+
+function yandexMapInit (ymaps) {
+    var myMap = new ymaps.Map("b-contacts-map", {
+        center: [50.633, 36.5712],
+        zoom: 16
+    });
+    myPlacemark = new ymaps.Placemark(myMap.getCenter(), {}, {
+        // Опции.
+        // Необходимо указать данный тип макета.
+        iconLayout: 'default#image',
+        // Своё изображение иконки метки.
+        iconImageHref: '/i/map-mark.svg',
+        // Размеры метки.
+        iconImageSize: [42, 60],
+        // Смещение левого верхнего угла иконки относительно
+        // её "ножки" (точки привязки).
+        iconImageOffset: [-21, -60]
+    });
+    myMap.geoObjects.add(myPlacemark)
+}

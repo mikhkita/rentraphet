@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="60px" viewBox="0 0 42 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>marker</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0.174096505%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F38600" offset="0.0580658784%"></stop>
+            <stop stop-color="#E45200" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0.11609804%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#F38600" offset="0.0580658784%"></stop>
+            <stop stop-color="#E45200" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Контакты" transform="translate(-479.000000, -989.000000)" fill-rule="nonzero">
+            <g id="Group-4" transform="translate(0.000000, 681.000000)">
+                <g id="marker-2" transform="translate(479.000000, 308.000000)">
+                    <g id="marker">
+                        <path d="M21,12.1028906 C16.348264,12.1028906 12.5640169,15.8619141 12.5640169,20.4823828 C12.5640169,25.1029687 16.348382,28.861875 21,28.861875 C25.651618,28.861875 29.4359831,25.1028516 29.4359831,20.4823828 C29.4359831,15.8619141 25.651736,12.1028906 21,12.1028906 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                        <path d="M21,0 C9.45082584,0 0.0548595506,9.33304687 0.0548595506,20.8048828 C0.0548595506,25.4973047 3.36873034,33.2307422 9.90433146,43.7903906 C14.6826573,51.5107031 19.5285843,58.0263281 19.5769551,58.0911328 L21,60 L22.4230449,58.0911328 C22.4714157,58.0263281 27.3173427,51.5107031 32.0956685,43.7903906 C38.6312697,33.2307422 41.9451404,25.4973047 41.9451404,20.8048828 C41.9451404,9.33304687 32.5491742,0 21,0 Z M21,32.3796094 C14.395618,32.3796094 9.02268539,27.0425391 9.02268539,20.4825 C9.02268539,13.9223438 14.395736,8.58539063 21,8.58539063 C27.604264,8.58539063 32.9773146,13.9224609 32.9773146,20.4825 C32.9773146,27.0425391 27.604382,32.3796094 21,32.3796094 Z" id="Shape" fill="url(#linearGradient-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

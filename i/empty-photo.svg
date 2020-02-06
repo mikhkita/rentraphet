@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="50px" viewBox="0 0 60 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>photo-camera</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Список-запчастей" transform="translate(-278.000000, -1511.000000)" fill="#E1E5EA" fill-rule="nonzero">
+            <g id="Group-20" transform="translate(222.000000, 548.000000)">
+                <g id="Group-4" transform="translate(0.000000, 895.000000)">
+                    <g id="Group-19" transform="translate(0.000000, 25.000000)">
+                        <g id="photo-camera" transform="translate(56.000000, 43.000000)">
+                            <path d="M30,15.5 C23.383,15.5 18,20.883 18,27.5 C18,34.117 23.383,39.5 30,39.5 C36.617,39.5 42,34.117 42,27.5 C42,20.883 36.617,15.5 30,15.5 Z" id="Path"></path>
+                            <path d="M55.201,10.5 L46.677,10.5 L42.677,0.5 L17.323,0.5 L13.323,10.5 L12,10.5 L12,5.5 L6,5.5 L6,10.5 L4.799,10.5 C2.152,10.5 0,12.652 0,15.299 L0,44.667 C0,47.332 2.168,49.5 4.833,49.5 L55.167,49.5 C57.832,49.5 60,47.332 60,44.667 L60,15.299 C60,12.652 57.848,10.5 55.201,10.5 Z M10,10.5 L8,10.5 L8,7.5 L10,7.5 L10,10.5 Z M30,45.5 C20.075,45.5 12,37.425 12,27.5 C12,17.575 20.075,9.5 30,9.5 C39.925,9.5 48,17.575 48,27.5 C48,37.425 39.925,45.5 30,45.5 Z M52,22.5 C49.794,22.5 48,20.706 48,18.5 C48,16.294 49.794,14.5 52,14.5 C54.206,14.5 56,16.294 56,18.5 C56,20.706 54.206,22.5 52,22.5 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
