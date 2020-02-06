@@ -11,6 +11,17 @@ $(document).ready(function(){
             myWidth = document.body.clientWidth;
             myHeight = document.body.clientHeight;
         }
+
+        //Выровлять по высоте
+        if($(".b-news-list").length){
+            var maxHeight = 0;
+            $(".b-news-item").each(function(){
+                if ( $(this).height() > maxHeight ) {
+                    maxHeight = $(this).height();
+                }
+            });
+            $(".b-news-item").height(maxHeight);
+        }
     }
     $(window).resize(resize);
     resize();
