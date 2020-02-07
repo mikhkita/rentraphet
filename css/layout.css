@@ -74,7 +74,8 @@
 
 [class^="icon-"]:before, 
 [class*=" icon-"]:before,
-ul.b-breadcrumbs li:after {
+ul.b-breadcrumbs li:after,
+.catalog-submenu > li > a:after{
 	/* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -120,7 +121,7 @@ body {
 	position: relative;
 }
 body {
-	min-width: 1000px;
+	min-width: 1204px;
 	text-align: left;
 	font-family: 'GothamPro-Regular';
 	font-size: 16px;
@@ -363,18 +364,31 @@ h3{
 			padding-top: 29px;
 			margin-bottom: 26px;
 		}
+			.b-header-top .b-logo{
+				margin-top: 6px;
+				margin-right: 40px;
+			}
 			.b-logo{
+				width: 206px;
 				display: inline-block;
 				vertical-align: top;
-				width: 206px;
-				height: 33px;
-				background-position: 50% 50%;
-			    background-image: url(../i/logo.svg);
-			    background-repeat: no-repeat;
-			    background-size: 206px;
-			    margin-right: 40px;
-			    margin-top: 20px;
 			}
+				.b-logo .text{
+					float: right;
+					color: #FFF;
+					font-size: 16px;
+					line-height: 16px;
+				}
+				.b-logo .logo{
+					display: inline-block;
+					vertical-align: top;
+					width: 206px;
+					height: 33px;
+					background-position: 50% 50%;
+				    background-image: url(../i/logo.svg);
+				    background-repeat: no-repeat;
+				    background-size: 206px;
+				}
 			.b-menu-desktop{
 				margin-top: 26px;
 				display: inline-block;
@@ -440,9 +454,120 @@ h3{
 				.b-header-catalog .icon-menu{
 
 				}
-			.b-btn-header-catalog{
+			.b-btn-header-catalog-cont{
+				position: relative;
+				display: inline-block;
+				vertical-align: top;
 				margin-right: 20px;
 			}
+				.b-btn-header-catalog{
+
+				}
+				.b-btn-header-catalog-cont > .catalog-submenu{
+					opacity: 0;
+					visibility: hidden;
+					-webkit-transform: translateY(-10px);
+					   -moz-transform: translateY(-10px);
+				    	-ms-transform: translateY(-10px);
+				    	 -o-transform: translateY(-10px); 
+				    		transform: translateY(-10px);
+				}
+				.b-btn-header-catalog-cont:hover > .catalog-submenu{
+					opacity: 1;
+					visibility: visible;
+					-webkit-transform: translateY(0);
+					   -moz-transform: translateY(0);
+				    	-ms-transform: translateY(0);
+				    	 -o-transform: translateY(0); 
+				    		transform: translateY(0);
+				}
+				.catalog-submenu{
+					position: absolute;
+					top: 77px;
+					left: 0;
+					background-color: #FFF;
+					box-shadow: 0 15px 25px 0 rgba(0,0,0,0.10);
+					width: 100%;
+					-webkit-transition: opacity 200ms ease-out, visibility 200ms ease-out, transform 200ms ease-out;
+					   -moz-transition: opacity 200ms ease-out, visibility 200ms ease-out, transform 200ms ease-out;
+					    -ms-transition: opacity 200ms ease-out, visibility 200ms ease-out, transform 200ms ease-out;
+					   	 -o-transition: opacity 200ms ease-out, visibility 200ms ease-out, transform 200ms ease-out;
+							transition: opacity 200ms ease-out, visibility 200ms ease-out, transform 200ms ease-out;
+				}
+				.catalog-submenu:before {
+				    position: absolute;
+				    content: "s";
+				    font-size: 0px;
+				    width: 0px;
+				    height: 0px;
+				    left: calc(50% - 10px);
+				    top: -18px;
+				    border-top: 9px solid transparent;
+				    border-right: 10px solid transparent;
+				    border-bottom: 9px solid #FFF;
+				    border-left: 10px solid transparent;
+				}
+				.catalog-submenu:after {
+				    content: "s";
+				    font-size: 0px;
+				    position: absolute;
+				    left: 0px;
+				    top: -25px;
+				    width: 100%;
+				    height: 25px;
+				}
+					.catalog-submenu li{
+						position: relative;
+						border-bottom: 1px solid #EAEFF7;
+					}
+					.catalog-submenu li:last-child{
+						border-bottom: 0;
+					}
+						.catalog-submenu li a{
+							display: inline-block;
+							width: 100%;
+							padding: 20px 32px;
+						}
+						.b-btn-header-catalog-cont > .catalog-submenu > li > a:after{
+							content: "\e904";
+						    position: absolute;
+						    top: 28px;
+						    right: 32px;
+						    font-size: 10px;
+						    -webkit-transition: right 200ms ease-out;
+							   -moz-transition: right 200ms ease-out;
+							    -ms-transition: right 200ms ease-out;
+							   	 -o-transition: right 200ms ease-out;
+									transition: right 200ms ease-out;
+						}
+						.b-btn-header-catalog-cont > .catalog-submenu > li:hover > a:after{
+							color: #FFF;
+							right: 20px;
+						}
+						.b-btn-header-catalog-cont > .catalog-submenu > li:hover > a{
+							color: #FFF;
+							background-image: linear-gradient(180deg, #F38600 0%, #E45200 100%);
+						}
+						.catalog-submenu li .catalog-submenu{
+							left: 100%;
+    						top: 0;
+    						opacity: 0;
+							visibility: hidden;
+						}
+						.catalog-submenu li:hover .catalog-submenu{
+							opacity: 1;
+							visibility: visible;
+						}
+						.catalog-submenu li .catalog-submenu:before,
+						.catalog-submenu li .catalog-submenu:after{
+							display: none;
+						}
+							.catalog-submenu li .catalog-submenu li{
+								
+							}
+								.catalog-submenu li .catalog-submenu li a{
+									
+								}
 			.b-input-search{
 				display: inline-block;
 				vertical-align: top;
@@ -492,6 +617,9 @@ h3{
 				vertical-align: top;
 				width: 450px;
 				margin-right: 60px;
+			}
+			.b-header-adv-item:nth-child(2n){
+				margin-right: 0;
 			}
 				.b-header-adv-item .b-img{
 					display: inline-block;
@@ -585,11 +713,14 @@ h3{
 /* ===== b-3 ===== */
 
 .b-3{
+
+}
+.b-3 .b-block{
 	padding: 105px 0 84px 0;
-    background-position: 70% 100%;
+	background-position: 100% 100%;
     background-image: url(../i/b-3-back.jpg);
     background-repeat: no-repeat;
-    background-size: 925px;
+    background-size: 830px;
 }
 	.b-3-left{
 		display: inline-block;
@@ -784,21 +915,8 @@ h3{
 		margin-bottom: 89px;
 	}
 		.b-footer-logo{
-			width: 206px;
-			display: inline-block;
-			vertical-align: top;
-			margin-right: 92px;
+			margin-right: 94px;
 		}
-			.b-footer-logo .text{
-				float: right;
-				color: #FFF;
-				font-size: 16px;
-				line-height: 16px;
-			}
-			.b-footer-logo .b-logo{
-				margin-right: 0;
-			    margin-top: 0;
-			}
 		.b-footer-menu{
 			margin-top: 20px;
 			display: inline-block;

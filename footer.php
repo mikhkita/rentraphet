@@ -1,9 +1,9 @@
 	<div class="b-footer">
 		<div class="b-block">
 			<div class="b-footer-top">
-				<a href="/" class="b-footer-logo clearfix">
+				<a href="/" class="b-logo b-footer-logo clearfix">
 					<div class="text">г. Белгород</div>
-					<div class="b-logo"></div>
+					<div class="logo"></div>
 				</a>
 				<ul class="b-footer-menu">
 					<li><a href="services.php">Услуги сервиса</a></li>

@@ -15,6 +15,7 @@ $(document).ready(function(){
         //Выровлять по высоте
         if($(".b-news-list").length){
             var maxHeight = 0;
+            $(".b-news-item").css("height", "auto");
             $(".b-news-item").each(function(){
                 if ( $(this).height() > maxHeight ) {
                     maxHeight = $(this).height();
