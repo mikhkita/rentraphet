@@ -81,28 +81,9 @@ h2:after, h1:after {
 }
 
 .b-2 {
-	/*overflow: hidden;
-	background-image: none;*/
+	background-image: url(../i/b-2-back-mobile.jpg);
     padding: 335px 0 57px 0;
 }
-/*.b-2:before{
-    content: "";
-    position: absolute;
-    width: 200%;
-    height: 200%;
-    top: -50%;
-    left: -50%;
-    z-index: -1;
-    background-position: 50% 50%;
-    background-image: url(../i/b-2-back.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-}*/
 .b-block.b-block-mobile{
 	width: calc(100% - 24px);
 }

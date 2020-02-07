@@ -109,7 +109,7 @@ $isMain = ($_SERVER['REQUEST_URI'] == "/" || $_SERVER['REQUEST_URI'] == "/index.
 				</div>
 				<?if($isMain):?>
 					<div class="b-header-content">
-						<h1><b>Сервисное обслуживание и продажа запчастей </b> <br>для сельхозтехники в Белгороде </h1>
+						<h1><b>Сервисное обслуживание и продажа запчастей</b> <br>для сельхозтехники в Белгороде </h1>
 						<div class="b-header-adv-list">
 							<div class="b-header-adv-item">
 								<div class="b-img" style="background-image: url(i/header-img-1.svg);"></div>
@@ -122,7 +122,7 @@ $isMain = ($_SERVER['REQUEST_URI'] == "/" || $_SERVER['REQUEST_URI'] == "/index.
 								<div class="b-img" style="background-image: url(i/header-img-2.svg);"></div>
 								<div class="b-header-adv-item-right">
 									<h3>Высокое качество работ</h3>
-									<p>Гарантия на ремонт двигателя – <br> 500 моточасов</p>
+									<p>Гарантия на ремонт двигателя –<br> 500 моточасов</p>
 								</div>
 							</div>
 						</div>

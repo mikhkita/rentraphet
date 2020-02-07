@@ -43,7 +43,7 @@
 					</div>
 					<div class="detail-adv-item">
 						<div class="b-img" style="background-image: url(i/spares-detail-2.svg);"></div>
-						<div class="detail-adv-item-text">Гибкая ценовая<br>  политика</div>
+						<div class="detail-adv-item-text">Гибкая ценовая<br> политика</div>
 					</div>
 					<div class="detail-adv-item">
 						<div class="b-img" style="background-image: url(i/spares-detail-3.svg);"></div>
