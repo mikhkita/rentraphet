@@ -1,4 +1,11 @@
-$(document).ready(function(){	
+$(document).ready(function(){
+
+    var myHeight = 0,
+        myWidth = 0,
+        isDesktop = false,
+        isTablet = false,
+        isMobile = false;
+
     function resize(){
        if( typeof( window.innerWidth ) == 'number' ) {
             myWidth = window.innerWidth;
@@ -12,16 +19,55 @@ $(document).ready(function(){
             myHeight = document.body.clientHeight;
         }
 
+        if( myWidth > 1203 ){
+            isDesktop = true;
+            isTablet = false;
+            isMobile = false;
+        }else if( myWidth > 767 ){
+            isDesktop = false;
+            isTablet = true;
+            isMobile = false;
+        }else{
+            isDesktop = false;
+            isTablet = false;
+            isMobile = true;
+        }
+
         //Выровлять по высоте
-        if($(".b-news-list").length){
+        $(".b-news-item").css("height", "auto");
+        if($(".b-news-list").length && myWidth > 665){
             var maxHeight = 0;
-            $(".b-news-item").css("height", "auto");
             $(".b-news-item").each(function(){
                 if ( $(this).height() > maxHeight ) {
                     maxHeight = $(this).height();
                 }
             });
             $(".b-news-item").height(maxHeight);
+        }
+
+        if(isMobile){
+            $(".mobile-slider").each(function() {
+                if(!$(this).hasClass("slick-initialized")){
+                    $(this).slick({
+                        dots: false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        cssEase: 'ease', 
+                        speed: 500,
+                        adaptiveHeight: true,
+                        arrows: true,
+                        prevArrow: '<div class="slick-arrow icon-arrow-left"></div>',
+                        nextArrow: '<div class="slick-arrow icon-arrow-right"></div>',
+                    });  
+                }
+            });
+        }else{
+            $(".mobile-slider").each(function() {
+                if($(this).hasClass("slick-initialized")){
+                    $(this).slick('unslick');
+                }
+            });
         }
     }
     $(window).resize(resize);
@@ -52,6 +98,38 @@ $(document).ready(function(){
         }
     }
     $.fn.placeholder();
+
+    var slideoutRight = new Slideout({
+        'panel': document.getElementById('panel-page'),
+        'menu': document.getElementById('panel-menu'),
+        'side': 'right',
+        'padding': 300,
+        'tolerance': 70
+    });
+
+    $('.b-menu-mobile').click(function() {
+        slideoutRight.open();
+        $('.b-menu-overlay').show();
+        return false;
+    });
+
+    slideoutRight.disableTouch();
+
+    slideoutRight.on('beforeopen', function() {
+        slideoutRight.enableTouch();
+    }).on('beforeclose', function() {
+        slideoutRight.disableTouch();
+        $(".b-menu-overlay").hide();
+    }).on('close', function() {
+        
+    });
+
+    $('.b-menu-overlay').on('click', function() {
+        if(slideoutRight.isOpen())
+            slideoutRight.close();
+        $(".b-menu-overlay").hide();
+        return false;
+    });
 
     // $(".b-step-slider").slick({
     //     dots: true,
@@ -103,21 +181,23 @@ $(document).ready(function(){
 });
 
 function yandexMapInit (ymaps) {
-    var myMap = new ymaps.Map("b-contacts-map", {
-        center: [50.633, 36.5712],
-        zoom: 16
-    });
-    myPlacemark = new ymaps.Placemark(myMap.getCenter(), {}, {
-        // Опции.
-        // Необходимо указать данный тип макета.
-        iconLayout: 'default#image',
-        // Своё изображение иконки метки.
-        iconImageHref: '/i/map-mark.svg',
-        // Размеры метки.
-        iconImageSize: [42, 60],
-        // Смещение левого верхнего угла иконки относительно
-        // её "ножки" (точки привязки).
-        iconImageOffset: [-21, -60]
-    });
-    myMap.geoObjects.add(myPlacemark)
+    if(document.getElementById("b-contacts-map")){
+        var myMap = new ymaps.Map("b-contacts-map", {
+            center: [50.633, 36.5712],
+            zoom: 16
+        });
+        myPlacemark = new ymaps.Placemark(myMap.getCenter(), {}, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: '/i/map-mark.svg',
+            // Размеры метки.
+            iconImageSize: [42, 60],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-21, -60]
+        });
+        myMap.geoObjects.add(myPlacemark)
+    }
 }

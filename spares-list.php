@@ -19,134 +19,80 @@
 			<div class="b-spares-item">
 				<a href="spares-detail.php" >
 					<div class="b-img" style="background-image: url(i/spares-1.jpg);"></div>
+				</a>
+				<div class="b-spares-item-info-cont">
 					<div class="b-spares-item-info">
-						<h3>Трубка компрессора водяного охлаждения болт-фланец А4572005052</h3>
+						<a href="spares-detail.php" ><h3>Трубка компрессора водяного охлаждения болт-фланец А4572005052</h3></a>
 						<p>Артикул: А4572005052</p>
 						<p>Производитель: Mercedes-Benz</p>
 					</div>
-				</a>
-				<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+					<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+				</div>
 			</div>
 			<div class="b-spares-item">
 				<a href="spares-detail.php" >
 					<div class="b-img" style="background-image: url(i/spares-2.jpg);"></div>
+				</a>
+				<div class="b-spares-item-info-cont">
 					<div class="b-spares-item-info">
-						<h3>Сальник вала коленчатого А0169970646</h3>
+						<a href="spares-detail.php" ><h3>Трубка компрессора водяного охлаждения болт-фланец А4572005052</h3></a>
 						<p>Артикул: А4572005052</p>
 						<p>Производитель: Mercedes-Benz</p>
 					</div>
-				</a>
-				<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+					<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+				</div>
 			</div>
 			<div class="b-spares-item">
 				<a href="spares-detail.php" >
 					<div class="b-img" style="background-image: url(i/spares-3.jpg);"></div>
+				</a>
+				<div class="b-spares-item-info-cont">
 					<div class="b-spares-item-info">
-						<h3>Поликлиновой ремень Contitech 8PK1610</h3>
+						<a href="spares-detail.php" ><h3>Трубка компрессора водяного охлаждения болт-фланец А4572005052</h3></a>
 						<p>Артикул: А4572005052</p>
 						<p>Производитель: Mercedes-Benz</p>
 					</div>
-				</a>
-				<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+					<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+				</div>
 			</div>
 			<div class="b-spares-item">
 				<a href="spares-detail.php" >
 					<div class="b-img" style="background-image: url(i/spares-4.jpg);"></div>
+				</a>
+				<div class="b-spares-item-info-cont">
 					<div class="b-spares-item-info">
-						<h3>Кольцо уплотнительное эластомерное гильзы цилиндра 720.700 (о.н. 4579970545)</h3>
+						<a href="spares-detail.php" ><h3>Трубка компрессора водяного охлаждения болт-фланец А4572005052</h3></a>
 						<p>Артикул: А4572005052</p>
 						<p>Производитель: Mercedes-Benz</p>
 					</div>
-				</a>
-				<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+					<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+				</div>
 			</div>
 			<div class="b-spares-item">
 				<a href="spares-detail.php" >
 					<div class="b-img" style="background-image: url(i/spares-5.jpg);"></div>
+				</a>
+				<div class="b-spares-item-info-cont">
 					<div class="b-spares-item-info">
-						<h3>Компрессор одноцилиндровый 011300457000</h3>
+						<a href="spares-detail.php" ><h3>Трубка компрессора водяного охлаждения болт-фланец А4572005052</h3></a>
 						<p>Артикул: А4572005052</p>
 						<p>Производитель: Mercedes-Benz</p>
 					</div>
-				</a>
-				<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+					<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+				</div>
 			</div>
 			<div class="b-spares-item">
 				<a href="spares-detail.php" >
 					<div class="b-img b-img-empty"></div>
+				</a>
+				<div class="b-spares-item-info-cont">
 					<div class="b-spares-item-info">
-						<h3>Толкатель клапана Conecto 010510500001</h3>
+						<a href="spares-detail.php" ><h3>Трубка компрессора водяного охлаждения болт-фланец А4572005052</h3></a>
 						<p>Артикул: А4572005052</p>
 						<p>Производитель: Mercedes-Benz</p>
 					</div>
-				</a>
-				<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
-			</div>
-			<div class="b-spares-item">
-				<a href="spares-detail.php" >
-					<div class="b-img" style="background-image: url(i/spares-1.jpg);"></div>
-					<div class="b-spares-item-info">
-						<h3>Трубка компрессора водяного охлаждения болт-фланец А4572005052</h3>
-						<p>Артикул: А4572005052</p>
-						<p>Производитель: Mercedes-Benz</p>
-					</div>
-				</a>
-				<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
-			</div>
-			<div class="b-spares-item">
-				<a href="spares-detail.php" >
-					<div class="b-img" style="background-image: url(i/spares-2.jpg);"></div>
-					<div class="b-spares-item-info">
-						<h3>Сальник вала коленчатого А0169970646</h3>
-						<p>Артикул: А4572005052</p>
-						<p>Производитель: Mercedes-Benz</p>
-					</div>
-				</a>
-				<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
-			</div>
-			<div class="b-spares-item">
-				<a href="spares-detail.php" >
-					<div class="b-img" style="background-image: url(i/spares-3.jpg);"></div>
-					<div class="b-spares-item-info">
-						<h3>Поликлиновой ремень Contitech 8PK1610</h3>
-						<p>Артикул: А4572005052</p>
-						<p>Производитель: Mercedes-Benz</p>
-					</div>
-				</a>
-				<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
-			</div>
-			<div class="b-spares-item">
-				<a href="spares-detail.php" >
-					<div class="b-img" style="background-image: url(i/spares-4.jpg);"></div>
-					<div class="b-spares-item-info">
-						<h3>Кольцо уплотнительное эластомерное гильзы цилиндра 720.700 (о.н. 4579970545)</h3>
-						<p>Артикул: А4572005052</p>
-						<p>Производитель: Mercedes-Benz</p>
-					</div>
-				</a>
-				<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
-			</div>
-			<div class="b-spares-item">
-				<a href="spares-detail.php" >
-					<div class="b-img" style="background-image: url(i/spares-5.jpg);"></div>
-					<div class="b-spares-item-info">
-						<h3>Компрессор одноцилиндровый 011300457000</h3>
-						<p>Артикул: А4572005052</p>
-						<p>Производитель: Mercedes-Benz</p>
-					</div>
-				</a>
-				<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
-			</div>
-			<div class="b-spares-item">
-				<a href="spares-detail.php" >
-					<div class="b-img b-img-empty"></div>
-					<div class="b-spares-item-info">
-						<h3>Толкатель клапана Conecto 010510500001</h3>
-						<p>Артикул: А4572005052</p>
-						<p>Производитель: Mercedes-Benz</p>
-					</div>
-				</a>
-				<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+					<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+				</div>
 			</div>
 		</div>
 		<div class="b-nav">
@@ -159,7 +105,7 @@
 			</ul>
 		</div>
 		<div class="b-seo">
-			<div class="b-block b-text">
+			<div class="b-text">
 				<h2>Запчасти для двигателя Mercedes-Benz (Мерседес) ОМ457LA</h2>
 				<p>Разнообразный и богатый опыт начало повседневной работы по формированию позиции обеспечивает широкому кругу (специалистов) участие в формировании модели развития. С другой стороны дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. С другой стороны дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения.</p>
 				<p>Повседневная практика показывает, что дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание системы обучения кадров, соответствует насущным потребностям. Таким образом новая модель организационной деятельности играет важную роль в формировании направлений прогрессивного развития. Не следует, однако забывать, что рамки и место обучения кадров влечет за собой процесс внедрения и модернизации соответствующий условий активизации.</p>

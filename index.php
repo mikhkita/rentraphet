@@ -6,7 +6,7 @@
 	<div class="b b-1">
 		<div class="b-block">
 			<h2 class="center">Почему <b>нам доверяют</b> клиенты?</h2>
-			<div class="b-1-list">
+			<div class="b-1-list mobile-slider">
 				<div class="b-1-item">
 					<div class="b-img" style="background-image: url(i/b-1-worker.svg);"></div>
 					<h3>Проверенные профессионалы</h3>
@@ -26,7 +26,7 @@
 		</div>
 	</div>
 	<div class="b b-2">
-		<div class="b-block clearfix">
+		<div class="b-block b-block-mobile clearfix">
 			<div class="b-2-content">
 				<h2><b>Скорая помощь </b><br> в «полевых условиях»!</h2>
 				<p>Вам не обязательно пригонять технику к нам.<br> В период сельскохозяйственных работ наши специалисты  по первому звонку и в кратчайшие сроки проведут <b>выездное  обслуживание вашей техники с полной гарантией качества!</b></p>
@@ -34,7 +34,8 @@
 		</div>
 	</div>
 	<div class="b b-3">
-		<div class="b-block clearfix">
+		<div class="b-block b-block-mobile clearfix">
+			<div class="b-3-back"></div>
 			<div class="b-3-left">
 				<h2>Вам <b>срочно требуется</b>  ремонт техники?</h2>
 				<p>Заполните форму, специалист компании «ТехПартнер» свяжется с Вами и рассчитает стоимость ремонта</p>
@@ -75,19 +76,25 @@
 		<div class="b-back-dark"></div>
 		<div class="b-block">
 			<h2 class="center white"><b>Отзывы</b> наших клиентов</h2>
-			<div class="b-reviews-list">
+			<div class="b-reviews-list mobile-slider">
 				<div class="b-reviews-item">
-					<div class="b-img" style="background-image: url(i/review-1.jpg);"></div>
+					<a href="i/review-1.jpg" class="fancy-img" data-fancybox="gallery">
+						<div class="b-img" style="background-image: url(i/review-1.jpg);"></div>
+					</a>
 					<p>15 ноября 2019 г.</p>
 					<h3>Отзыв о канатах «Мобидик»</h3>
 				</div>
 				<div class="b-reviews-item">
-					<div class="b-img" style="background-image: url(i/review-2.jpg);"></div>
+					<a href="i/review-2.jpg" class="fancy-img" data-fancybox="gallery">
+						<div class="b-img" style="background-image: url(i/review-2.jpg);"></div>
+					</a>
 					<p>25 декабря 2019 г.</p>
 					<h3>Отзыв от ООО «Национальная Контейнерная Компания»</h3>
 				</div>
 				<div class="b-reviews-item">
-					<div class="b-img" style="background-image: url(i/review-3.jpg);"></div>
+					<a href="i/review-3.jpg" class="fancy-img" data-fancybox="gallery">
+						<div class="b-img" style="background-image: url(i/review-3.jpg);"></div>
+					</a>
 					<p>10 октября 2019 г.</p>
 					<h3>Отзыв от ОАО «ВВМЭСС»</h3>
 				</div>
@@ -98,9 +105,9 @@
 		</div>
 	</div>
 	<div class="b-news">
-		<div class="b-block">
+		<div class="b-block b-block-mobile">
 			<h2 class="center"><b>Новости</b></h2>
-			<div class="b-news-list">
+			<div class="b-news-list b-news-main">
 				<a href="detail.php" class="b-news-item">
 					<div class="b-img-cont">
 						<div class="b-img" style="background-image: url(i/news-1.jpg);"></div>

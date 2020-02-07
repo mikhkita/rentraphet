@@ -163,7 +163,10 @@ $(document).ready(function(){
 	});
 
 	$(".fancy-img").fancybox({
-		padding : 0
+		padding : 0,
+		buttons: [
+			"close"
+		]
 	});
 
 	$(".goal-click").click(function(){

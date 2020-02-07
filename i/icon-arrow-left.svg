@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="37px" viewBox="0 0 20 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mobile-375" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Главная-v1" transform="translate(-24.000000, -981.000000)" fill="#E96300" fill-rule="nonzero">
+            <g id="Group-29" transform="translate(0.000000, 758.000000)">
+                <g id="next-2" transform="translate(34.000000, 241.500000) scale(-1, 1) translate(-34.000000, -241.500000) translate(24.000000, 223.000000)">
+                    <g id="next">
+                        <path d="M19.5264748,17.3320144 L2.64402878,0.449496403 C2.04467626,-0.149856115 1.0728777,-0.149856115 0.47352518,0.449496403 C-0.125827338,1.04884892 -0.125827338,2.02064748 0.47352518,2.62 L16.2707194,18.4172662 L0.47352518,34.2145324 C-0.125827338,34.8138849 -0.125827338,35.7856835 0.47352518,36.385036 C1.0728777,36.9843885 2.04467626,36.9843885 2.64402878,36.385036 L19.5265468,19.502518 C20.1258273,18.9031655 20.1258273,17.9313669 19.5264748,17.3320144 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

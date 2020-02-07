@@ -19,19 +19,19 @@
 				<ul class="detail-characteristics">
 					<li>
 						<span class="characteristic">Артикул</span>
-						<span>011300457000</span>
+						<span class="characteristic-val">011300457000</span>
 					</li>
 					<li>
 						<span class="characteristic">Производитель</span>
-						<span>Mercedes-Benz</span>
+						<span class="characteristic-val">Mercedes-Benz</span>
 					</li>
 					<li>
 						<span class="characteristic">Совместимость</span>
-						<a href="#">Двигатель Mercedes-Benz ОМ457LA</a>
+						<a href="#" class="characteristic-val">Двигатель Mercedes-Benz ОМ457LA</a>
 					</li>
 					<li>
 						<span class="characteristic">Марка техники</span>
-						<a href="#">Monitou MLT741 120 LSU<</a>
+						<a href="#" class="characteristic-val">Monitou MLT741 120 LSU<</a>
 					</li>
 				</ul>
 				<p class="detail-desc">Пневматический (воздушный) компрессор 53205-3509015, одноцилиндровый для техники Monitou. Компрессор одноцилиндровый  предназначен для тормозных систем автомобилей «Monitou» и транспортных средств с двигателем семейства Mercedes-Benz в качестве источника сжатого воздуха.</p>
@@ -58,46 +58,54 @@
 				<div class="b-spares-item">
 					<a href="spares-detail.php" >
 						<div class="b-img" style="background-image: url(i/spares-1.jpg);"></div>
+					</a>
+					<div class="b-spares-item-info-cont">
 						<div class="b-spares-item-info">
-							<h3>Трубка компрессора водяного охлаждения болт-фланец А4572005052</h3>
+							<a href="spares-detail.php" ><h3>Трубка компрессора водяного охлаждения болт-фланец А4572005052</h3></a>
 							<p>Артикул: А4572005052</p>
 							<p>Производитель: Mercedes-Benz</p>
 						</div>
-					</a>
-					<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+						<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+					</div>
 				</div>
 				<div class="b-spares-item">
 					<a href="spares-detail.php" >
 						<div class="b-img" style="background-image: url(i/spares-2.jpg);"></div>
+					</a>
+					<div class="b-spares-item-info-cont">
 						<div class="b-spares-item-info">
-							<h3>Сальник вала коленчатого А0169970646</h3>
+							<a href="spares-detail.php" ><h3>Трубка компрессора водяного охлаждения болт-фланец А4572005052</h3></a>
 							<p>Артикул: А4572005052</p>
 							<p>Производитель: Mercedes-Benz</p>
 						</div>
-					</a>
-					<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+						<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+					</div>
 				</div>
 				<div class="b-spares-item">
 					<a href="spares-detail.php" >
 						<div class="b-img" style="background-image: url(i/spares-3.jpg);"></div>
+					</a>
+					<div class="b-spares-item-info-cont">
 						<div class="b-spares-item-info">
-							<h3>Поликлиновой ремень Contitech 8PK1610</h3>
+							<a href="spares-detail.php" ><h3>Трубка компрессора водяного охлаждения болт-фланец А4572005052</h3></a>
 							<p>Артикул: А4572005052</p>
 							<p>Производитель: Mercedes-Benz</p>
 						</div>
-					</a>
-					<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+						<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+					</div>
 				</div>
 				<div class="b-spares-item">
 					<a href="spares-detail.php" >
 						<div class="b-img" style="background-image: url(i/spares-4.jpg);"></div>
+					</a>
+					<div class="b-spares-item-info-cont">
 						<div class="b-spares-item-info">
-							<h3>Кольцо уплотнительное эластомерное гильзы цилиндра 720.700 (о.н. 4579970545)</h3>
+							<a href="spares-detail.php" ><h3>Трубка компрессора водяного охлаждения болт-фланец А4572005052</h3></a>
 							<p>Артикул: А4572005052</p>
 							<p>Производитель: Mercedes-Benz</p>
 						</div>
-					</a>
-					<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+						<a href="#" class="b-btn-orange"><span>Оставить запрос</span></a>
+					</div>
 				</div>
 			</div>
 			<div class="center">
